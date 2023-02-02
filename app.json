@@ -1,6 +1,31 @@
 {
   "pages": [
     "Pages/home/home",
-    "Pages/about/about"
+    "Pages/about/about",
+    "Pages/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "商品页",
+    "backgroundColor": "#fffff0",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [{
+      "pagePath": "Pages/home/home",
+      "text": "首页",
+      "iconPath": "assets/tabbar/home.png",
+      "selectedIconPath": "assets/tabbar/home_active.png"
+    },
+    {
+      "pagePath": "Pages/category/category",
+      "text": "个人中心",
+      "iconPath": "assets/tabbar/user.png",
+      "selectedIconPath": "assets/tabbar/user_active.png"
+    }
   ]
+  }
 }
